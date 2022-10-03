@@ -1,0 +1,42 @@
+{
+  "name": "testapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-jwt": "^6.1.1",
+    "helmet": "^5.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "jwks-rsa": "^2.0.5",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.3",
+    "mongodb": "^4.5.0",
+    "mongodb-memory-server": "^8.5.0",
+    "mongoose": "^6.3.1",
+    "mongoose-paginate-v2": "^1.6.3",
+    "morgan": "^1.10.0",
+    "password-hash": "^1.2.2",
+    "validator": "^13.7.0"
+  },
+  "expo": {
+    "android": {
+      "permissions": [
+        "READ_CALL_LOG"
+      ],
+      "package": "your package name here"
+    }
+  }
+}
